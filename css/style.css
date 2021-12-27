@@ -96,6 +96,8 @@ header{
 
 header aside img{
     padding-top: 72px;
+    height: auto;
+    width: 600px;
 }
 
 #acessorios{
@@ -125,10 +127,11 @@ header aside img{
 
 #cardsAcessorios{
     display: flex;
+    justify-content: center;
     padding-left: 5vw;
     padding-right: 5vw;
     padding-bottom: 106px;
-    gap: 10vw;
+    gap: 7vw;
 }
 
 .cardAcessorio{
@@ -150,7 +153,12 @@ header aside img{
     justify-content: center;
     align-items: center;
     padding: 90px 100px 90px;
-    gap: 224px;
+    gap: 15vw;
+}
+
+#realizarDoacao #imagem img{
+    height: auto;
+    width: 400px;
 }
 
 .mensagem2{
