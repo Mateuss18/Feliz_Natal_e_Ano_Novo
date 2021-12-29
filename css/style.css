@@ -1,212 +1,210 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
+  --red: #da2535;
+  --pink: #f7c7b9;
+  --white: #f9f9f9;
+  --gray: #8d8d8d;
+  --gray-200: #404040;
+  --black-light: #161212;
 
-    --red: #DA2535;
-    --pink: #F7C7B9;
-    --white: #F9F9F9;
-    --gray: #8D8D8D;
-    --gray-200: #404040;
-    --black-light: #161212;
-
-    font-family: 'Poppins', sans-serif;
-
+  font-family: 'Poppins', sans-serif;
 }
 
-body{
-    background-color: var(--pink);
+body {
+  background-color: var(--pink);
 }
 
-nav{
-    background-color: var(--pink);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 28px 90px 0;
-    width: 100%;
+nav {
+  background-color: var(--pink);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 90px 0;
+  width: 100%;
 }
 
-.logo{
-    display: flex;
-    gap: 12px;
+.logo {
+  display: flex;
+  gap: 12px;
 }
 
-nav #menu{
-    display: flex;
-    gap: 51px;
+nav #menu {
+  display: flex;
+  gap: 51px;
 }
 
-nav a{
-    text-decoration: none;
-    color: var(--black-light);
-    font-size: 16px;
-    font-weight: 900;
-    transition: 0.10s;
+nav a {
+  text-decoration: none;
+  color: var(--black-light);
+  font-size: 16px;
+  font-weight: 900;
+  transition: 0.1s;
 }
 
-nav a:hover{
-    color: var(--red);
+nav a:hover {
+  color: var(--red);
 }
 
-header{
-    background-color: var(--pink);
-    display: flex;
-    justify-content: center;
-    padding: 0 8vw 10vw;
-    gap: 10vw;
+header {
+  background-color: var(--pink);
+  display: flex;
+  justify-content: center;
+  padding: 0 7vw 10vw;
+  gap: 10vw;
 }
 
-.mensagem{
-    display: flex;
-    flex-direction: column;
-    padding-top: 119px;
+.mensagem {
+  display: flex;
+  flex-direction: column;
+  padding-top: 119px;
 }
 
-.mensagem h1{
-    font-size: 48px;
-    max-width: 380px;
-    line-height: 52px;
-    margin-bottom: 24px;
-} 
-
-.mensagem p{
-    max-width: 500px;
-    margin-bottom: 40px;
+.mensagem h1 {
+  font-size: 48px;
+  max-width: 380px;
+  line-height: 52px;
+  margin-bottom: 24px;
 }
 
-.botao{
-    border: none;
-    border-radius: 5px;
-    background-color: var(--red);
-    color: var(--white);
-    height: 48px;
-    width: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: 0.6s;
+.mensagem p {
+  max-width: 500px;
+  margin-bottom: 40px;
 }
 
-.botao:hover{
-    background-color: #fa2c3d;
-    font-size: 20px;
+.botao {
+  border: none;
+  border-radius: 5px;
+  background-color: var(--red);
+  color: var(--white);
+  height: 48px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.6s;
 }
 
-header aside img{
-    padding-top: 72px;
-    height: auto;
-    width: 600px;
+.botao:hover {
+  background-color: #fa2c3d;
+  font-size: 20px;
 }
 
-#acessorios{
-    display: flex;
-    flex-direction: column;
-    background-color: var(--white);
+header aside img {
+  padding-top: 72px;
+  height: auto;
+  width: 600px;
 }
 
-#titulo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 48px;
+#acessorios {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
 }
 
-#titulo h1{
-    font-size: 48px;
-    margin-bottom: 12px;
+#titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 48px;
 }
 
-#titulo p{
-    font-size: 16px;
-    margin-bottom:32px;
-    max-width: 500px;
-    text-align: center;
+#titulo h1 {
+  font-size: 48px;
+  margin-bottom: 12px;
 }
 
-#cardsAcessorios{
-    display: flex;
-    justify-content: center;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    padding-bottom: 106px;
-    gap: 6vw;
+#titulo p {
+  font-size: 16px;
+  margin-bottom: 32px;
+  max-width: 500px;
+  text-align: center;
 }
 
-.cardAcessorio{
-    text-align: center;
+#cardsAcessorios {
+  display: flex;
+  justify-content: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 106px;
+  gap: 6vw;
 }
 
-.cardAcessorio:hover{
-    height: 40px;
+.cardAcessorio {
+  text-align: center;
 }
 
-.cardAcessorio h3{
-    font-size: 20px;
+.cardAcessorio:hover {
+  height: 40px;
 }
 
-.cardAcessorio p{
-    max-width: 200px;
-    color: var(--gray);
+.cardAcessorio h3 {
+  font-size: 20px;
 }
 
-#realizarDoacao{
-    background-color: var(--pink);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 9vw 10vw 9vw;
-    gap: 15vw;
+.cardAcessorio p {
+  max-width: 200px;
+  color: var(--gray);
 }
 
-#realizarDoacao #imagem img{
-    height: auto;
-    width: 400px;
+#realizarDoacao {
+  background-color: var(--pink);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9vw 10vw 9vw;
+  gap: 18vw;
 }
 
-.mensagem2{
-    display: flex;
-    flex-direction: column;
+#realizarDoacao #imagem img {
+  height: auto;
+  width: 400px;
 }
 
-.mensagem2 h1{
-    font-size: 48px;
-    max-width: 500px;
-    line-height: 52px;
-    margin-bottom: 24px;
-} 
-
-.mensagem2 p{
-    max-width: 450px;
-    margin-bottom: 40px;
+.mensagem2 {
+  display: flex;
+  flex-direction: column;
 }
 
-footer{
-    display: flex;
-    align-items: center;
-    padding: 50px 90px 40px 90px;
-    justify-content: space-between;
-    background-color: var(--white);
+.mensagem2 h1 {
+  font-size: 48px;
+  max-width: 500px;
+  line-height: 52px;
+  margin-bottom: 24px;
 }
 
-footer #redesSociais{
-    display: flex;
-    gap: 2vw;
+.mensagem2 p {
+  max-width: 450px;
+  margin-bottom: 40px;
 }
 
-footer a{
-    display: flex;
-    background-color: var(--pink);
-    padding: 8px;
-    border-radius: 50%;
+footer {
+  display: flex;
+  align-items: center;
+  padding: 50px 90px 40px 90px;
+  justify-content: space-between;
+  background-color: var(--white);
 }
 
-footer a:hover{
-    border: solid 1px var(--red);
+footer #redesSociais {
+  display: flex;
+  gap: 2vw;
+}
+
+footer a {
+  display: flex;
+  background-color: var(--pink);
+  padding: 8px;
+  border-radius: 50%;
+}
+
+footer a:hover {
+  border: solid 1px var(--red);
 }
