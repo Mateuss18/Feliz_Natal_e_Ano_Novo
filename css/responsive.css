@@ -78,3 +78,49 @@
     gap: 30px;
   }
 }
+
+/*Responsividade mobile*/
+@media screen and (max-width: 550px){
+  h1{
+    font-size: 10px;
+  }
+
+  nav{
+    justify-content: center;
+    align-items: center;
+    padding: 28px 0 0;
+  }
+
+  .mensagem h1{
+    font-size: 35px;
+    max-width: 260px;
+  }
+  .mensagem p{
+    font-size: 14px;
+    max-width: 300px;
+  } 
+  #titulo h1{
+    font-size: 35px;
+  }
+
+  #titulo p{
+    font-size: 14px;
+    max-width: 300px;
+  }
+  .mensagem2 h1{
+    font-size: 35px;
+    max-width: 500px;
+  } 
+
+  .mensagem2 p{
+    max-width: 290px;
+    margin-bottom: 14px;
+  }
+
+  footer{
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 40px 0px;
+  }
+
+}
