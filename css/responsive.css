@@ -1,0 +1,80 @@
+/*Notebook / Tablets*/
+@media screen and (max-width: 1151px) {
+  * {
+    font-size: -2px;
+  }
+
+  nav {
+    padding: 28px 80px 0;
+  }
+
+  nav #menu {
+    gap: 4vw;
+  }
+
+  header {
+    padding: 13vw 8vw;
+    gap: 0;
+  }
+
+  .mensagem {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 0;
+  }
+
+  header aside img {
+    display: none;
+  }
+
+  #cardsAcessorios {
+    flex-wrap: wrap;
+    max-width: 1000px;
+    gap: 7vw;
+  }
+
+  #realizarDoacao {
+    text-align: center;
+    padding: 90px 0 90px;
+    gap: 0;
+  }
+
+  #realizarDoacao #imagem img {
+    display: none;
+  }
+  .mensagem2 {
+    justify-content: center;
+    align-items: center;
+  }
+  .mensagem2 p {
+    max-width: 480px;
+  }
+
+  footer {
+    padding: 50px 80px 40px 80px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  * {
+    font-size: -2px;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav #menu {
+    margin-top: 20px;
+    gap: 4vw;
+  }
+  header {
+    padding: 90px 0;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

@@ -14,6 +14,11 @@
     --black-light: #161212;
 
     font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-color: var(--pink);
 }
 
 nav{
@@ -21,8 +26,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
     padding: 28px 90px 0;
+    width: 100%;
 }
 
 .logo{
@@ -51,7 +56,7 @@ header{
     background-color: var(--pink);
     display: flex;
     justify-content: center;
-    padding: 0 90px 194px;
+    padding: 0 8vw 10vw;
     gap: 10vw;
 }
 
@@ -128,14 +133,18 @@ header aside img{
 #cardsAcessorios{
     display: flex;
     justify-content: center;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
     padding-bottom: 106px;
-    gap: 7vw;
+    gap: 6vw;
 }
 
 .cardAcessorio{
     text-align: center;
+}
+
+.cardAcessorio:hover{
+    height: 40px;
 }
 
 .cardAcessorio h3{
@@ -152,7 +161,7 @@ header aside img{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 90px 100px 90px;
+    padding: 9vw 10vw 9vw;
     gap: 15vw;
 }
 
@@ -181,7 +190,7 @@ header aside img{
 footer{
     display: flex;
     align-items: center;
-    padding: 50px 100px 40px 100px;
+    padding: 50px 90px 40px 90px;
     justify-content: space-between;
     background-color: var(--white);
 }
