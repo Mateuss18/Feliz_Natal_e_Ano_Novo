@@ -38,9 +38,7 @@ Link do desafio no Figma: [Clique aqui](https://www.figma.com/file/Yb9IBH56g7T1h
 <div align="center">
 
 ![](https://github.com/JoshDanielWalker/Tech-SVG-Icons/blob/master/html-5.svg)
-
 ![](https://github.com/JoshDanielWalker/Tech-SVG-Icons/blob/master/css.svg)
-
 ![](https://github.com/JoshDanielWalker/Tech-SVG-Icons/blob/master/javascript.svg)
 </div>
 
